@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62AAF08258510C5006408E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62AAF07258510C5006408E8 /* AppDelegate.swift */; };
+		C62AAF0A258510C5006408E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62AAF09258510C5006408E8 /* ViewController.swift */; };
+		C62AAF0C258510C8006408E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62AAF0B258510C8006408E8 /* Assets.xcassets */; };
+		C62AAF0F258510C8006408E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62AAF0D258510C8006408E8 /* Main.storyboard */; };
+		C62AAF2A25851E68006408E8 /* testc.c in Sources */ = {isa = PBXBuildFile; fileRef = C62AAF2925851E68006408E8 /* testc.c */; };
+		C62AB008258D9FFD006408E8 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF43258522DE006408E8 /* libavcodec.a */; };
+		C62AB009258D9FFD006408E8 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF482585B316006408E8 /* libavdevice.a */; };
+		C62AB00A258D9FFD006408E8 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF492585B316006408E8 /* libavfilter.a */; };
+		C62AB00B258D9FFD006408E8 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF40258522DE006408E8 /* libavformat.a */; };
+		C62AB00C258D9FFD006408E8 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF42258522DE006408E8 /* libavutil.a */; };
+		C62AB00D258D9FFD006408E8 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF41258522DE006408E8 /* libswresample.a */; };
+		C62AB00E258D9FFD006408E8 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF4A2585B316006408E8 /* libswscale.a */; };
+		C62AB010258D9FFD006408E8 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB00F258D9FFD006408E8 /* libmp3lame.a */; };
+		C62AB012258DA08C006408E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB011258DA08C006408E8 /* Security.framework */; };
+		C62AB015258DA0A0006408E8 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB013258DA0A0006408E8 /* liblzma.tbd */; };
+		C62AB016258DA0A0006408E8 /* liblzma.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB014258DA0A0006408E8 /* liblzma.5.tbd */; };
+		C62AB018258DA0B4006408E8 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB017258DA0B4006408E8 /* libbz2.tbd */; };
+		C62AB01A258DA0BF006408E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB019258DA0BF006408E8 /* Cocoa.framework */; };
+		C62AB01C258DA0D0006408E8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB01B258DA0D0006408E8 /* libz.tbd */; };
+		C62AB01F258DA0EE006408E8 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB01D258DA0EE006408E8 /* libiconv.tbd */; };
+		C62AB022258DA0FB006408E8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB021258DA0FB006408E8 /* CoreFoundation.framework */; };
+		C62AB024258DA10C006408E8 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB023258DA10C006408E8 /* Quartz.framework */; };
+		C62AB026258DA118006408E8 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB025258DA118006408E8 /* OpenCL.framework */; };
+		C62AB028258DA126006408E8 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB027258DA126006408E8 /* VideoToolbox.framework */; };
+		C62AB02A258DA142006408E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB029258DA142006408E8 /* AVFoundation.framework */; };
+		C62AB02C258DA154006408E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB02B258DA154006408E8 /* AudioToolbox.framework */; };
+		C62AB02E258DA15F006408E8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB02D258DA15F006408E8 /* CoreMedia.framework */; };
+		C62AB035258DFD20006408E8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB034258DFD20006408E8 /* CoreAudio.framework */; };
+		C62AB037258E0002006408E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB036258E0002006408E8 /* Foundation.framework */; };
+		C62AB039258E0028006408E8 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB038258E0028006408E8 /* CoreServices.framework */; };
+		C62AB03B258E0038006408E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB03A258E0037006408E8 /* CoreGraphics.framework */; };
+		C62AB03D258E004A006408E8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB03C258E004A006408E8 /* AppKit.framework */; };
+		C62AB03F258E0063006408E8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB03E258E0063006408E8 /* Metal.framework */; };
+		C62AB041258E0071006408E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB040258E0071006408E8 /* QuartzCore.framework */; };
+		C62AB043258E0084006408E8 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB042258E0083006408E8 /* IOKit.framework */; };
+		C62AB045258E0092006408E8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB044258E0092006408E8 /* Carbon.framework */; };
+		C62AB047258E00A4006408E8 /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB046258E00A4006408E8 /* ForceFeedback.framework */; };
+		C62AB049258E00BA006408E8 /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB048258E00BA006408E8 /* libobjc.tbd */; };
+		C62AB04B258E0142006408E8 /* libobjc.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04A258E0142006408E8 /* libobjc.A.tbd */; };
+		C62AB04D258E025C006408E8 /* libSystem.B.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04C258E025C006408E8 /* libSystem.B.tbd */; };
+		C62AB04F258E02C1006408E8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04E258E02C1006408E8 /* CoreVideo.framework */; };
+		C62AB057258E078D006408E8 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C62AAF04258510C5006408E8 /* macapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62AAF07258510C5006408E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C62AAF09258510C5006408E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C62AAF0B258510C8006408E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62AAF0E258510C8006408E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C62AAF10258510C8006408E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62AAF11258510C8006408E8 /* macapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macapp.entitlements; sourceTree = "<group>"; };
+		C62AAF1725851669006408E8 /* macapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C62AAF1825851669006408E8 /* testc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testc.h; sourceTree = "<group>"; };
+		C62AAF1C258519EF006408E8 /* libavutil.55.78.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.55.78.100.dylib; path = macapp/lib/libavutil.55.78.100.dylib; sourceTree = "<group>"; };
+		C62AAF1D258519EF006408E8 /* libavformat.57.83.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.57.83.100.dylib; path = macapp/lib/libavformat.57.83.100.dylib; sourceTree = "<group>"; };
+		C62AAF1E258519EF006408E8 /* libavdevice.57.10.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.57.10.100.dylib; path = macapp/lib/libavdevice.57.10.100.dylib; sourceTree = "<group>"; };
+		C62AAF2925851E68006408E8 /* testc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testc.c; sourceTree = "<group>"; };
+		C62AAF2B25851F9B006408E8 /* libswresample.2.9.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.2.9.100.dylib; path = macapp/lib/libswresample.2.9.100.dylib; sourceTree = "<group>"; };
+		C62AAF2C25851F9B006408E8 /* libavcodec.57.107.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.57.107.100.dylib; path = macapp/lib/libavcodec.57.107.100.dylib; sourceTree = "<group>"; };
+		C62AAF2F2585205A006408E8 /* libavformat.58.35.101.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.58.35.101.dylib; path = macapp/lib/libavformat.58.35.101.dylib; sourceTree = "<group>"; };
+		C62AAF302585205A006408E8 /* libavcodec.58.64.101.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.64.101.dylib; path = macapp/lib/libavcodec.58.64.101.dylib; sourceTree = "<group>"; };
+		C62AAF312585205A006408E8 /* libavutil.56.36.101.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.56.36.101.dylib; path = macapp/lib/libavutil.56.36.101.dylib; sourceTree = "<group>"; };
+		C62AAF322585205A006408E8 /* libswresample.3.6.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.6.100.dylib; path = macapp/lib/libswresample.3.6.100.dylib; sourceTree = "<group>"; };
+		C62AAF372585209C006408E8 /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = macapp/lib/libavformat.dylib; sourceTree = "<group>"; };
+		C62AAF3A258520DB006408E8 /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.dylib; path = macapp/lib/libavcodec.dylib; sourceTree = "<group>"; };
+		C62AAF3B258520DB006408E8 /* libswresample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.dylib; path = macapp/lib/libswresample.dylib; sourceTree = "<group>"; };
+		C62AAF3C258520DB006408E8 /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = macapp/lib/libavutil.dylib; sourceTree = "<group>"; };
+		C62AAF40258522DE006408E8 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = macapp/lib/libavformat.a; sourceTree = "<group>"; };
+		C62AAF41258522DE006408E8 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = macapp/lib/libswresample.a; sourceTree = "<group>"; };
+		C62AAF42258522DE006408E8 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = macapp/lib/libavutil.a; sourceTree = "<group>"; };
+		C62AAF43258522DE006408E8 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = macapp/lib/libavcodec.a; sourceTree = "<group>"; };
+		C62AAF482585B316006408E8 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = macapp/lib/libavdevice.a; sourceTree = "<group>"; };
+		C62AAF492585B316006408E8 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = macapp/lib/libavfilter.a; sourceTree = "<group>"; };
+		C62AAF4A2585B316006408E8 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = macapp/lib/libswscale.a; sourceTree = "<group>"; };
+		C62AB00F258D9FFD006408E8 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp3lame.a; path = macapp/lib/libmp3lame.a; sourceTree = "<group>"; };
+		C62AB011258DA08C006408E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C62AB013258DA0A0006408E8 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
+		C62AB014258DA0A0006408E8 /* liblzma.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.5.tbd; path = usr/lib/liblzma.5.tbd; sourceTree = SDKROOT; };
+		C62AB017258DA0B4006408E8 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		C62AB019258DA0BF006408E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C62AB01B258DA0D0006408E8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C62AB01D258DA0EE006408E8 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		C62AB01E258DA0EE006408E8 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		C62AB021258DA0FB006408E8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C62AB023258DA10C006408E8 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		C62AB025258DA118006408E8 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		C62AB027258DA126006408E8 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		C62AB029258DA142006408E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C62AB02B258DA154006408E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C62AB02D258DA15F006408E8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C62AB032258DFCB4006408E8 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = macapp/lib/libSDL2.a; sourceTree = "<group>"; };
+		C62AB034258DFD20006408E8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C62AB036258E0002006408E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C62AB038258E0028006408E8 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C62AB03A258E0037006408E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C62AB03C258E004A006408E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C62AB03E258E0063006408E8 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		C62AB040258E0071006408E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C62AB042258E0083006408E8 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C62AB044258E0092006408E8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		C62AB046258E00A4006408E8 /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
+		C62AB048258E00BA006408E8 /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
+		C62AB04A258E0142006408E8 /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = usr/lib/libobjc.A.tbd; sourceTree = SDKROOT; };
+		C62AB04C258E025C006408E8 /* libSystem.B.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.B.tbd; path = usr/lib/libSystem.B.tbd; sourceTree = SDKROOT; };
+		C62AB04E258E02C1006408E8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C62AB050258E03C3006408E8 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		C62AB051258E03C3006408E8 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		C62AB052258E03C3006408E8 /* CoreMediaIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMediaIO.framework; path = System/Library/Frameworks/CoreMediaIO.framework; sourceTree = SDKROOT; };
+		C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "macapp/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62AAF01258510C5006408E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62AB057258E078D006408E8 /* libSDL2-2.0.0.dylib in Frameworks */,
+				C62AB04F258E02C1006408E8 /* CoreVideo.framework in Frameworks */,
+				C62AB049258E00BA006408E8 /* libobjc.tbd in Frameworks */,
+				C62AB04D258E025C006408E8 /* libSystem.B.tbd in Frameworks */,
+				C62AB04B258E0142006408E8 /* libobjc.A.tbd in Frameworks */,
+				C62AB047258E00A4006408E8 /* ForceFeedback.framework in Frameworks */,
+				C62AB045258E0092006408E8 /* Carbon.framework in Frameworks */,
+				C62AB043258E0084006408E8 /* IOKit.framework in Frameworks */,
+				C62AB041258E0071006408E8 /* QuartzCore.framework in Frameworks */,
+				C62AB03F258E0063006408E8 /* Metal.framework in Frameworks */,
+				C62AB03D258E004A006408E8 /* AppKit.framework in Frameworks */,
+				C62AB03B258E0038006408E8 /* CoreGraphics.framework in Frameworks */,
+				C62AB039258E0028006408E8 /* CoreServices.framework in Frameworks */,
+				C62AB037258E0002006408E8 /* Foundation.framework in Frameworks */,
+				C62AB035258DFD20006408E8 /* CoreAudio.framework in Frameworks */,
+				C62AB02E258DA15F006408E8 /* CoreMedia.framework in Frameworks */,
+				C62AB02C258DA154006408E8 /* AudioToolbox.framework in Frameworks */,
+				C62AB02A258DA142006408E8 /* AVFoundation.framework in Frameworks */,
+				C62AB028258DA126006408E8 /* VideoToolbox.framework in Frameworks */,
+				C62AB026258DA118006408E8 /* OpenCL.framework in Frameworks */,
+				C62AB024258DA10C006408E8 /* Quartz.framework in Frameworks */,
+				C62AB022258DA0FB006408E8 /* CoreFoundation.framework in Frameworks */,
+				C62AB01F258DA0EE006408E8 /* libiconv.tbd in Frameworks */,
+				C62AB01C258DA0D0006408E8 /* libz.tbd in Frameworks */,
+				C62AB01A258DA0BF006408E8 /* Cocoa.framework in Frameworks */,
+				C62AB018258DA0B4006408E8 /* libbz2.tbd in Frameworks */,
+				C62AB015258DA0A0006408E8 /* liblzma.tbd in Frameworks */,
+				C62AB016258DA0A0006408E8 /* liblzma.5.tbd in Frameworks */,
+				C62AB012258DA08C006408E8 /* Security.framework in Frameworks */,
+				C62AB010258D9FFD006408E8 /* libmp3lame.a in Frameworks */,
+				C62AB008258D9FFD006408E8 /* libavcodec.a in Frameworks */,
+				C62AB009258D9FFD006408E8 /* libavdevice.a in Frameworks */,
+				C62AB00A258D9FFD006408E8 /* libavfilter.a in Frameworks */,
+				C62AB00B258D9FFD006408E8 /* libavformat.a in Frameworks */,
+				C62AB00C258D9FFD006408E8 /* libavutil.a in Frameworks */,
+				C62AB00D258D9FFD006408E8 /* libswresample.a in Frameworks */,
+				C62AB00E258D9FFD006408E8 /* libswscale.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62AAEFB258510C5006408E8 = {
+			isa = PBXGroup;
+			children = (
+				C62AAF06258510C5006408E8 /* macapp */,
+				C62AAF05258510C5006408E8 /* Products */,
+				C62AAF1B258519EE006408E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C62AAF05258510C5006408E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62AAF04258510C5006408E8 /* macapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62AAF06258510C5006408E8 /* macapp */ = {
+			isa = PBXGroup;
+			children = (
+				C62AAF2925851E68006408E8 /* testc.c */,
+				C62AAF07258510C5006408E8 /* AppDelegate.swift */,
+				C62AAF09258510C5006408E8 /* ViewController.swift */,
+				C62AAF1825851669006408E8 /* testc.h */,
+				C62AAF0B258510C8006408E8 /* Assets.xcassets */,
+				C62AAF0D258510C8006408E8 /* Main.storyboard */,
+				C62AAF10258510C8006408E8 /* Info.plist */,
+				C62AAF11258510C8006408E8 /* macapp.entitlements */,
+				C62AAF1725851669006408E8 /* macapp-Bridging-Header.h */,
+			);
+			path = macapp;
+			sourceTree = "<group>";
+		};
+		C62AAF1B258519EE006408E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */,
+				C62AB052258E03C3006408E8 /* CoreMediaIO.framework */,
+				C62AB050258E03C3006408E8 /* CoreMIDI.framework */,
+				C62AB051258E03C3006408E8 /* CoreML.framework */,
+				C62AB04E258E02C1006408E8 /* CoreVideo.framework */,
+				C62AB04C258E025C006408E8 /* libSystem.B.tbd */,
+				C62AB04A258E0142006408E8 /* libobjc.A.tbd */,
+				C62AB048258E00BA006408E8 /* libobjc.tbd */,
+				C62AB046258E00A4006408E8 /* ForceFeedback.framework */,
+				C62AB044258E0092006408E8 /* Carbon.framework */,
+				C62AB042258E0083006408E8 /* IOKit.framework */,
+				C62AB040258E0071006408E8 /* QuartzCore.framework */,
+				C62AB03E258E0063006408E8 /* Metal.framework */,
+				C62AB03C258E004A006408E8 /* AppKit.framework */,
+				C62AB03A258E0037006408E8 /* CoreGraphics.framework */,
+				C62AB038258E0028006408E8 /* CoreServices.framework */,
+				C62AB036258E0002006408E8 /* Foundation.framework */,
+				C62AB034258DFD20006408E8 /* CoreAudio.framework */,
+				C62AB032258DFCB4006408E8 /* libSDL2.a */,
+				C62AB02D258DA15F006408E8 /* CoreMedia.framework */,
+				C62AB02B258DA154006408E8 /* AudioToolbox.framework */,
+				C62AB029258DA142006408E8 /* AVFoundation.framework */,
+				C62AB027258DA126006408E8 /* VideoToolbox.framework */,
+				C62AB025258DA118006408E8 /* OpenCL.framework */,
+				C62AB023258DA10C006408E8 /* Quartz.framework */,
+				C62AB021258DA0FB006408E8 /* CoreFoundation.framework */,
+				C62AB01E258DA0EE006408E8 /* libiconv.2.tbd */,
+				C62AB01D258DA0EE006408E8 /* libiconv.tbd */,
+				C62AB01B258DA0D0006408E8 /* libz.tbd */,
+				C62AB019258DA0BF006408E8 /* Cocoa.framework */,
+				C62AB017258DA0B4006408E8 /* libbz2.tbd */,
+				C62AB014258DA0A0006408E8 /* liblzma.5.tbd */,
+				C62AB013258DA0A0006408E8 /* liblzma.tbd */,
+				C62AB011258DA08C006408E8 /* Security.framework */,
+				C62AB00F258D9FFD006408E8 /* libmp3lame.a */,
+				C62AAF482585B316006408E8 /* libavdevice.a */,
+				C62AAF492585B316006408E8 /* libavfilter.a */,
+				C62AAF4A2585B316006408E8 /* libswscale.a */,
+				C62AAF43258522DE006408E8 /* libavcodec.a */,
+				C62AAF40258522DE006408E8 /* libavformat.a */,
+				C62AAF42258522DE006408E8 /* libavutil.a */,
+				C62AAF41258522DE006408E8 /* libswresample.a */,
+				C62AAF3A258520DB006408E8 /* libavcodec.dylib */,
+				C62AAF3C258520DB006408E8 /* libavutil.dylib */,
+				C62AAF3B258520DB006408E8 /* libswresample.dylib */,
+				C62AAF372585209C006408E8 /* libavformat.dylib */,
+				C62AAF302585205A006408E8 /* libavcodec.58.64.101.dylib */,
+				C62AAF2F2585205A006408E8 /* libavformat.58.35.101.dylib */,
+				C62AAF312585205A006408E8 /* libavutil.56.36.101.dylib */,
+				C62AAF322585205A006408E8 /* libswresample.3.6.100.dylib */,
+				C62AAF2C25851F9B006408E8 /* libavcodec.57.107.100.dylib */,
+				C62AAF2B25851F9B006408E8 /* libswresample.2.9.100.dylib */,
+				C62AAF1E258519EF006408E8 /* libavdevice.57.10.100.dylib */,
+				C62AAF1D258519EF006408E8 /* libavformat.57.83.100.dylib */,
+				C62AAF1C258519EF006408E8 /* libavutil.55.78.100.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62AAF03258510C5006408E8 /* macapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62AAF14258510C8006408E8 /* Build configuration list for PBXNativeTarget "macapp" */;
+			buildPhases = (
+				C62AAF00258510C5006408E8 /* Sources */,
+				C62AAF01258510C5006408E8 /* Frameworks */,
+				C62AAF02258510C5006408E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macapp;
+			productName = macapp;
+			productReference = C62AAF04258510C5006408E8 /* macapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62AAEFC258510C5006408E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = jiweiLi;
+				TargetAttributes = {
+					C62AAF03258510C5006408E8 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C62AAEFF258510C5006408E8 /* Build configuration list for PBXProject "macapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62AAEFB258510C5006408E8;
+			productRefGroup = C62AAF05258510C5006408E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62AAF03258510C5006408E8 /* macapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62AAF02258510C5006408E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62AAF0C258510C8006408E8 /* Assets.xcassets in Resources */,
+				C62AAF0F258510C8006408E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62AAF00258510C5006408E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62AAF2A25851E68006408E8 /* testc.c in Sources */,
+				C62AAF0A258510C5006408E8 /* ViewController.swift in Sources */,
+				C62AAF08258510C5006408E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C62AAF0D258510C8006408E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62AAF0E258510C8006408E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62AAF12258510C8006408E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C62AAF13258510C8006408E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C62AAF15258510C8006408E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/jiweili/Desktop/macapp/macapp/include;
+				INFOPLIST_FILE = macapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macapp/lib",
+					/Users/jiweili/Desktop/macapp/macapp/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lll.macapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "macapp/macapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C62AAF16258510C8006408E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /Users/jiweili/Desktop/macapp/macapp/include;
+				INFOPLIST_FILE = macapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macapp/lib",
+					/Users/jiweili/Desktop/macapp/macapp/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lll.macapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "macapp/macapp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62AAEFF258510C5006408E8 /* Build configuration list for PBXProject "macapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62AAF12258510C8006408E8 /* Debug */,
+				C62AAF13258510C8006408E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62AAF14258510C8006408E8 /* Build configuration list for PBXNativeTarget "macapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62AAF15258510C8006408E8 /* Debug */,
+				C62AAF16258510C8006408E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62AAEFC258510C5006408E8 /* Project object */;
+}
