@@ -14,7 +14,8 @@
 #include <libavdevice/avdevice.h>
 #include <libavformat/avformat.h>  //对于ffmepg 所有的设备 多媒体文件 都是一种格式 都使用avformat 解析
 #include <libavcodec/avcodec.h>
+#include <libswresample/swresample.h>
 
-int rec_audio(void);
+void rec_audio();
 void set_status(int status);
 #endif /* testc_h */
