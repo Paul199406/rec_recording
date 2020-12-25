@@ -19,7 +19,6 @@
 		C62AB00C258D9FFD006408E8 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF42258522DE006408E8 /* libavutil.a */; };
 		C62AB00D258D9FFD006408E8 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF41258522DE006408E8 /* libswresample.a */; };
 		C62AB00E258D9FFD006408E8 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF4A2585B316006408E8 /* libswscale.a */; };
-		C62AB010258D9FFD006408E8 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB00F258D9FFD006408E8 /* libmp3lame.a */; };
 		C62AB012258DA08C006408E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB011258DA08C006408E8 /* Security.framework */; };
 		C62AB015258DA0A0006408E8 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB013258DA0A0006408E8 /* liblzma.tbd */; };
 		C62AB016258DA0A0006408E8 /* liblzma.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB014258DA0A0006408E8 /* liblzma.5.tbd */; };
@@ -48,7 +47,6 @@
 		C62AB04B258E0142006408E8 /* libobjc.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04A258E0142006408E8 /* libobjc.A.tbd */; };
 		C62AB04D258E025C006408E8 /* libSystem.B.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04C258E025C006408E8 /* libSystem.B.tbd */; };
 		C62AB04F258E02C1006408E8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04E258E02C1006408E8 /* CoreVideo.framework */; };
-		C62AB057258E078D006408E8 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,7 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62AB057258E078D006408E8 /* libSDL2-2.0.0.dylib in Frameworks */,
 				C62AB04F258E02C1006408E8 /* CoreVideo.framework in Frameworks */,
 				C62AB049258E00BA006408E8 /* libobjc.tbd in Frameworks */,
 				C62AB04D258E025C006408E8 /* libSystem.B.tbd in Frameworks */,
@@ -153,7 +150,6 @@
 				C62AB015258DA0A0006408E8 /* liblzma.tbd in Frameworks */,
 				C62AB016258DA0A0006408E8 /* liblzma.5.tbd in Frameworks */,
 				C62AB012258DA08C006408E8 /* Security.framework in Frameworks */,
-				C62AB010258D9FFD006408E8 /* libmp3lame.a in Frameworks */,
 				C62AB008258D9FFD006408E8 /* libavcodec.a in Frameworks */,
 				C62AB009258D9FFD006408E8 /* libavdevice.a in Frameworks */,
 				C62AB00A258D9FFD006408E8 /* libavfilter.a in Frameworks */,
