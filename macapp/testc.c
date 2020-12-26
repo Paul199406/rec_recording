@@ -14,7 +14,7 @@ void set_status(int status){
     rec_status = status;
 }
 
-int rec_audio(){
+int rec_vedio(){
     
     // note  c 风格
     AVFormatContext* fmt_ctx=NULL;
@@ -22,14 +22,22 @@ int rec_audio(){
     char errors[1024]={0};
     
     //[[video device]:[audio device]]   : 代表可以选
-    char devicename[] = ":0";//第一个音频设备
+    //在mac上对于视频 0 默认摄像图
+                //1 桌面
+    char devicename[] = "0";//第一个音频设备
     
     AVPacket pkt;//分配在栈空间
+    AVDictionary *options = NULL;
     
     FILE *outfile = NULL;
     
     
     rec_status = 1;// start record
+    
+    
+    av_dict_set(&options, "vedio_size", "640x480", 0);
+    av_dict_set(&options, "framerate", "30", 0);//帧率
+    av_dict_set(&options, "pixel_format", "nv12", 0);//格式nv12属于yuv420sp
     
     //1 注册设备
     avdevice_register_all();
@@ -43,7 +51,7 @@ int rec_audio(){
     }
     
     //3 打开设备 url可以是本地地址或网络地址
-    ret = avformat_open_input(&fmt_ctx, devicename,iformat, NULL);
+    ret = avformat_open_input(&fmt_ctx, devicename,iformat, &options);
     if (ret)
     {
         av_strerror(ret, errors, 1024);
@@ -54,7 +62,7 @@ int rec_audio(){
     //4 读数据
     av_init_packet(&pkt);
     
-    outfile = fopen("/Users/jiweili/Desktop/macapp/macapp/audio.pcm", "wb+");
+    outfile = fopen("/Users/jiweili/Desktop/macapp/macapp/vedio.yuv", "wb+");
     if (NULL == outfile)
     {
         printf("fopen fail\n");
@@ -64,7 +72,7 @@ int rec_audio(){
     while((ret = av_read_frame(fmt_ctx, &pkt)) == 0 &&
            rec_status)
     {
-        fwrite(pkt.data, pkt.size, 1, outfile);
+        fwrite(pkt.data, 1, 460800, outfile);//uyvy422 大小   640x480x2=614400   nv12d： 640x480x1.5=460800
         fflush(outfile); // 实时将缓冲区的数据写入文件 但是会对性能产生影响
         printf("pkt size is %d\n",pkt.size);
         

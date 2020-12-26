@@ -12,43 +12,13 @@
 		C62AAF0C258510C8006408E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62AAF0B258510C8006408E8 /* Assets.xcassets */; };
 		C62AAF0F258510C8006408E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62AAF0D258510C8006408E8 /* Main.storyboard */; };
 		C62AAF2A25851E68006408E8 /* testc.c in Sources */ = {isa = PBXBuildFile; fileRef = C62AAF2925851E68006408E8 /* testc.c */; };
-		C62AB008258D9FFD006408E8 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF43258522DE006408E8 /* libavcodec.a */; };
-		C62AB009258D9FFD006408E8 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF482585B316006408E8 /* libavdevice.a */; };
-		C62AB00A258D9FFD006408E8 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF492585B316006408E8 /* libavfilter.a */; };
-		C62AB00B258D9FFD006408E8 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF40258522DE006408E8 /* libavformat.a */; };
-		C62AB00C258D9FFD006408E8 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF42258522DE006408E8 /* libavutil.a */; };
-		C62AB00D258D9FFD006408E8 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF41258522DE006408E8 /* libswresample.a */; };
-		C62AB00E258D9FFD006408E8 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AAF4A2585B316006408E8 /* libswscale.a */; };
-		C62AB010258D9FFD006408E8 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB00F258D9FFD006408E8 /* libmp3lame.a */; };
-		C62AB012258DA08C006408E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB011258DA08C006408E8 /* Security.framework */; };
-		C62AB015258DA0A0006408E8 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB013258DA0A0006408E8 /* liblzma.tbd */; };
-		C62AB016258DA0A0006408E8 /* liblzma.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB014258DA0A0006408E8 /* liblzma.5.tbd */; };
-		C62AB018258DA0B4006408E8 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB017258DA0B4006408E8 /* libbz2.tbd */; };
-		C62AB01A258DA0BF006408E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB019258DA0BF006408E8 /* Cocoa.framework */; };
-		C62AB01C258DA0D0006408E8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB01B258DA0D0006408E8 /* libz.tbd */; };
-		C62AB01F258DA0EE006408E8 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB01D258DA0EE006408E8 /* libiconv.tbd */; };
-		C62AB022258DA0FB006408E8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB021258DA0FB006408E8 /* CoreFoundation.framework */; };
-		C62AB024258DA10C006408E8 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB023258DA10C006408E8 /* Quartz.framework */; };
-		C62AB026258DA118006408E8 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB025258DA118006408E8 /* OpenCL.framework */; };
-		C62AB028258DA126006408E8 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB027258DA126006408E8 /* VideoToolbox.framework */; };
-		C62AB02A258DA142006408E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB029258DA142006408E8 /* AVFoundation.framework */; };
-		C62AB02C258DA154006408E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB02B258DA154006408E8 /* AudioToolbox.framework */; };
-		C62AB02E258DA15F006408E8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB02D258DA15F006408E8 /* CoreMedia.framework */; };
-		C62AB035258DFD20006408E8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB034258DFD20006408E8 /* CoreAudio.framework */; };
-		C62AB037258E0002006408E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB036258E0002006408E8 /* Foundation.framework */; };
-		C62AB039258E0028006408E8 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB038258E0028006408E8 /* CoreServices.framework */; };
-		C62AB03B258E0038006408E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB03A258E0037006408E8 /* CoreGraphics.framework */; };
-		C62AB03D258E004A006408E8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB03C258E004A006408E8 /* AppKit.framework */; };
-		C62AB03F258E0063006408E8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB03E258E0063006408E8 /* Metal.framework */; };
-		C62AB041258E0071006408E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB040258E0071006408E8 /* QuartzCore.framework */; };
-		C62AB043258E0084006408E8 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB042258E0083006408E8 /* IOKit.framework */; };
-		C62AB045258E0092006408E8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB044258E0092006408E8 /* Carbon.framework */; };
-		C62AB047258E00A4006408E8 /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB046258E00A4006408E8 /* ForceFeedback.framework */; };
-		C62AB049258E00BA006408E8 /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB048258E00BA006408E8 /* libobjc.tbd */; };
-		C62AB04B258E0142006408E8 /* libobjc.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04A258E0142006408E8 /* libobjc.A.tbd */; };
-		C62AB04D258E025C006408E8 /* libSystem.B.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04C258E025C006408E8 /* libSystem.B.tbd */; };
-		C62AB04F258E02C1006408E8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB04E258E02C1006408E8 /* CoreVideo.framework */; };
-		C62AB057258E078D006408E8 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */; };
+		C62AB07325974C2E006408E8 /* libavfilter.7.57.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB06C25974C2E006408E8 /* libavfilter.7.57.100.dylib */; };
+		C62AB07425974C2E006408E8 /* libavformat.58.29.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB06D25974C2E006408E8 /* libavformat.58.29.100.dylib */; };
+		C62AB07525974C2E006408E8 /* libavutil.56.31.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB06E25974C2E006408E8 /* libavutil.56.31.100.dylib */; };
+		C62AB07625974C2E006408E8 /* libswresample.3.5.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB06F25974C2E006408E8 /* libswresample.3.5.100.dylib */; };
+		C62AB07725974C2E006408E8 /* libavdevice.58.8.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB07025974C2E006408E8 /* libavdevice.58.8.100.dylib */; };
+		C62AB07825974C2E006408E8 /* libavcodec.58.54.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB07125974C2E006408E8 /* libavcodec.58.54.100.dylib */; };
+		C62AB07925974C2E006408E8 /* libswscale.5.5.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C62AB07225974C2E006408E8 /* libswscale.5.5.100.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +87,13 @@
 		C62AB051258E03C3006408E8 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		C62AB052258E03C3006408E8 /* CoreMediaIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMediaIO.framework; path = System/Library/Frameworks/CoreMediaIO.framework; sourceTree = SDKROOT; };
 		C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "macapp/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		C62AB06C25974C2E006408E8 /* libavfilter.7.57.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.7.57.100.dylib; path = macapp/lib/libavfilter.7.57.100.dylib; sourceTree = "<group>"; };
+		C62AB06D25974C2E006408E8 /* libavformat.58.29.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.58.29.100.dylib; path = macapp/lib/libavformat.58.29.100.dylib; sourceTree = "<group>"; };
+		C62AB06E25974C2E006408E8 /* libavutil.56.31.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.56.31.100.dylib; path = macapp/lib/libavutil.56.31.100.dylib; sourceTree = "<group>"; };
+		C62AB06F25974C2E006408E8 /* libswresample.3.5.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.5.100.dylib; path = macapp/lib/libswresample.3.5.100.dylib; sourceTree = "<group>"; };
+		C62AB07025974C2E006408E8 /* libavdevice.58.8.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.58.8.100.dylib; path = macapp/lib/libavdevice.58.8.100.dylib; sourceTree = "<group>"; };
+		C62AB07125974C2E006408E8 /* libavcodec.58.54.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.54.100.dylib; path = macapp/lib/libavcodec.58.54.100.dylib; sourceTree = "<group>"; };
+		C62AB07225974C2E006408E8 /* libswscale.5.5.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.5.5.100.dylib; path = macapp/lib/libswscale.5.5.100.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,43 +101,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62AB057258E078D006408E8 /* libSDL2-2.0.0.dylib in Frameworks */,
-				C62AB04F258E02C1006408E8 /* CoreVideo.framework in Frameworks */,
-				C62AB049258E00BA006408E8 /* libobjc.tbd in Frameworks */,
-				C62AB04D258E025C006408E8 /* libSystem.B.tbd in Frameworks */,
-				C62AB04B258E0142006408E8 /* libobjc.A.tbd in Frameworks */,
-				C62AB047258E00A4006408E8 /* ForceFeedback.framework in Frameworks */,
-				C62AB045258E0092006408E8 /* Carbon.framework in Frameworks */,
-				C62AB043258E0084006408E8 /* IOKit.framework in Frameworks */,
-				C62AB041258E0071006408E8 /* QuartzCore.framework in Frameworks */,
-				C62AB03F258E0063006408E8 /* Metal.framework in Frameworks */,
-				C62AB03D258E004A006408E8 /* AppKit.framework in Frameworks */,
-				C62AB03B258E0038006408E8 /* CoreGraphics.framework in Frameworks */,
-				C62AB039258E0028006408E8 /* CoreServices.framework in Frameworks */,
-				C62AB037258E0002006408E8 /* Foundation.framework in Frameworks */,
-				C62AB035258DFD20006408E8 /* CoreAudio.framework in Frameworks */,
-				C62AB02E258DA15F006408E8 /* CoreMedia.framework in Frameworks */,
-				C62AB02C258DA154006408E8 /* AudioToolbox.framework in Frameworks */,
-				C62AB02A258DA142006408E8 /* AVFoundation.framework in Frameworks */,
-				C62AB028258DA126006408E8 /* VideoToolbox.framework in Frameworks */,
-				C62AB026258DA118006408E8 /* OpenCL.framework in Frameworks */,
-				C62AB024258DA10C006408E8 /* Quartz.framework in Frameworks */,
-				C62AB022258DA0FB006408E8 /* CoreFoundation.framework in Frameworks */,
-				C62AB01F258DA0EE006408E8 /* libiconv.tbd in Frameworks */,
-				C62AB01C258DA0D0006408E8 /* libz.tbd in Frameworks */,
-				C62AB01A258DA0BF006408E8 /* Cocoa.framework in Frameworks */,
-				C62AB018258DA0B4006408E8 /* libbz2.tbd in Frameworks */,
-				C62AB015258DA0A0006408E8 /* liblzma.tbd in Frameworks */,
-				C62AB016258DA0A0006408E8 /* liblzma.5.tbd in Frameworks */,
-				C62AB012258DA08C006408E8 /* Security.framework in Frameworks */,
-				C62AB010258D9FFD006408E8 /* libmp3lame.a in Frameworks */,
-				C62AB008258D9FFD006408E8 /* libavcodec.a in Frameworks */,
-				C62AB009258D9FFD006408E8 /* libavdevice.a in Frameworks */,
-				C62AB00A258D9FFD006408E8 /* libavfilter.a in Frameworks */,
-				C62AB00B258D9FFD006408E8 /* libavformat.a in Frameworks */,
-				C62AB00C258D9FFD006408E8 /* libavutil.a in Frameworks */,
-				C62AB00D258D9FFD006408E8 /* libswresample.a in Frameworks */,
-				C62AB00E258D9FFD006408E8 /* libswscale.a in Frameworks */,
+				C62AB07325974C2E006408E8 /* libavfilter.7.57.100.dylib in Frameworks */,
+				C62AB07425974C2E006408E8 /* libavformat.58.29.100.dylib in Frameworks */,
+				C62AB07525974C2E006408E8 /* libavutil.56.31.100.dylib in Frameworks */,
+				C62AB07625974C2E006408E8 /* libswresample.3.5.100.dylib in Frameworks */,
+				C62AB07725974C2E006408E8 /* libavdevice.58.8.100.dylib in Frameworks */,
+				C62AB07825974C2E006408E8 /* libavcodec.58.54.100.dylib in Frameworks */,
+				C62AB07925974C2E006408E8 /* libswscale.5.5.100.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +150,13 @@
 		C62AAF1B258519EE006408E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C62AB07125974C2E006408E8 /* libavcodec.58.54.100.dylib */,
+				C62AB07025974C2E006408E8 /* libavdevice.58.8.100.dylib */,
+				C62AB06C25974C2E006408E8 /* libavfilter.7.57.100.dylib */,
+				C62AB06D25974C2E006408E8 /* libavformat.58.29.100.dylib */,
+				C62AB06E25974C2E006408E8 /* libavutil.56.31.100.dylib */,
+				C62AB06F25974C2E006408E8 /* libswresample.3.5.100.dylib */,
+				C62AB07225974C2E006408E8 /* libswscale.5.5.100.dylib */,
 				C62AB056258E078D006408E8 /* libSDL2-2.0.0.dylib */,
 				C62AB052258E03C3006408E8 /* CoreMediaIO.framework */,
 				C62AB050258E03C3006408E8 /* CoreMIDI.framework */,

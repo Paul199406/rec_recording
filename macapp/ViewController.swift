@@ -59,7 +59,7 @@ class ViewController: NSViewController {
     @objc func recAudio() {
         
         print("start")
-        rec_audio();
+        rec_vedio();
     }
     override var representedObject: Any? {
         didSet {

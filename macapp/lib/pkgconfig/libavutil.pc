@@ -1,0 +1,14 @@
+prefix=/Users/jiweili/Project/ffmpeg/mac_build_enable_aac
+exec_prefix=${prefix}
+libdir=/Users/jiweili/Project/ffmpeg/mac_build_enable_aac/lib
+includedir=/Users/jiweili/Project/ffmpeg/mac_build_enable_aac/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.31.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}
